@@ -145,13 +145,33 @@ button:active {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .form-container {
+        background-color: whitesmoke;
+        width:100%;
+        padding: 20px;
+    }
 
+    input[type="text"] {
+
+        width: 100%;
+    }
+
+    button {
+        display: flex;
+        margin: auto;
+    }
+
+    .weather__info {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
