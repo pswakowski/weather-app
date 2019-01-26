@@ -1,13 +1,11 @@
-import React, {Component} from "react";
+import React from "react";
 import {Line} from 'react-chartjs-2';
 
 
 const Chart = props => (
 
-    <div>
-        <p class="forecast-container__subtitle weather__key">Prognoza pogody...</p>
-
-
+    <div className="spacing">
+        <p className="forecast-container__subtitle weather__key">Prognoza pogody...</p>
         <Line
             data={{
                 labels: [...props.forecast_date],

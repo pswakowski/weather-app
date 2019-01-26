@@ -73,7 +73,7 @@ input[type="text"] {
     border-bottom: solid 1px #f16051;
     width: 30%;
     padding-bottom: 4px;
-    color: #fff !important;
+    color: #000;
     font-weight: lighter;
     letter-spacing: 2px;
     margin-bottom: 30px;
@@ -145,6 +145,10 @@ button:active {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    body {
+        background: white;
+    }
+
     .form-container {
         background-color: whitesmoke;
         width:100%;
@@ -167,11 +171,18 @@ button:active {
         font-weight: 200;
         letter-spacing: 2px;
     }
+
+    .spacing {
+        margin-top: 70px;
+    }
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    .spacing {
+        margin-top:0;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
